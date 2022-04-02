@@ -1,45 +1,126 @@
-<!-- DTD / Document Type Definition -->
-<!-- Informa ao Browser a versão do HTML que está sendo carregada. -->
-<!doctype html>
+<!DOCTYPE html> 
 
-<!-- Elemento ou TAG raiz -->
-<html lang="pt-br" dir="ltr"> 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página de INFO</title>
-    </head>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+</head>
+
     <body>
-        <div>
-            <nav>
-                <ul type="circle"> <!--unordered list -->
-                    <li>Item - 1</li><!-- list item -->
-                    <li>Item - 2</li>
-                    <li>Item - 3</li>
-                </ul>
-                <!-- ul>li*3 emmet para a criação de lista direto. -->
-            </nav>
-        </div>
-
-        <!-- crie uma div com uma lista com 3 itens e cada intem deve ter uma tag a dentro de si. 
-        div>ul>li*3>a 
-        -->
-        <div>
+    
+    <nav>
+        <a href="#">Serviços</a>
+        <ul>
             <ul>
-                <li><a href="pagina2.html" target="_blank">PÁGINA-2</a></li>
-                <li><a href="http://www.fiap.com.br">FIAP</a></li>
-                <li><a href="http://www.google.com.br">GOOGLE</a></li>
+                <li><a href="#sobre">TESTE</a></li>
+                <li><a href="#servicos">TESTE</a></li>
+                <li><a href="#imagens">TESTE</a></li>
+                <li><a href="#contato">TESTE</a></li>
             </ul>
-        </div>
-            
-    
-    
-    
-    
-    
-            </ul>
-        </div>
-
         </ul>
+    </nav>
+
+    <header id="topo">
+        <h1>Equipe de Ponta - Serviços Web</h1>
+        <p>
+            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
+            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+            Segurança da Informação também é uma especialidade que dominamos.
+        </p>
+        <a href="#servicos">Ver mais...</a>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>
+            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
+        </p>
+        <a href="#contato">Contrate Agora</a>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div>
+            <img src="./img/cursos.png" alt="Icones de Lingugagens de Programação" width="30%"
+            title= "Curso de diversas linguagens de programação.">
+            <h3>Cursos de Programação</h3>
+                <p>
+                Diversos Cursos
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="Gadgets" width="30%"
+            title= "Desenvolvimento Web com plataformas modernas.">
+            <h3>Desenvolvimento Web</h3>
+                <p>
+                Desenvolvimento Web voltado para pequenas e grandes empresas.
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/eventos.jpg" alt="Fones de Ouvido" width="30%"
+            title= "WorkShops Remotos.">
+            <h3>WorkShops</h3>
+                <p>
+                Os melhores especialistas do mercado a sua disposição 
+                para ministrar conteúdo de primeira para sua equipe e clientes.
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras" width="30%"
+            title= "Cuidado com os dados é primordial">
+            <h3>Segurança da Informação</h3>
+                <p>
+                Hoje a Segurança da Informação é algo que garante 
+                estabilidade e integridade dos dados.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="Imagens">
+            <h2>Imagens</h2>
+
+            <img src="./img/backbone.jpg" alt="Conexões de Redes" width="50%">
+            <img src="./img/cidade.jpg" alt="Cidade" width="50%">
+            <img src="./img/internet.jpg" alt="Rede Mundial" width="50%">
+            <img src="./img/rede.jpg" alt="Redes Neurais" width="50%">
+            <img src="./img/icones.png" alt="Icones" width="50%">
+            <img src="./img/comunicao.jpg" alt="Redes Neurais" width="50%">
+
+        </section> 
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale Conosco</p>
+            <div>
+                <img src="./img/tel.png" alt="Telefone">
+                <p><a href="tel:+5511970537070">(11) 970537070</a></p>
+            </div>
+
+            <div>
+                <img src="./img/mail.png" alt="Envelope">
+                <p><a href="mailto:rm95281@fiap.com.br">rm95281@fiap.com.br</a></p>
+            </div>
+
+        </section>
+
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Copyright &copy; <a href="http://www.fiap.com.br">FIAP</a> - All rights reserved - Feito por Nickolas Kenji &copy;</p>
+            <p>Realizado em Abril/2022</p>
+            <p><a href="mailto:rm95281@fiap.com.br">EMAIL&#9993;</a><i class="fa fa-envelope" aria-hidden="true"></i></p>
+            <p><a href="https://github.com/NickolasKenji">GITHUB &#9997;</a><i class="fab fa-linkedin"></i></p>
+        </footer>
+
     </body>
+
 </html>
+
+<!--Nicks O Mais Brabo-->
